@@ -73,6 +73,7 @@ def turn
     move(index, current_player)
     display_board
   else
+    index = input_to_index(user_input)
       turn
       end
     end
